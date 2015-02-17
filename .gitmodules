@@ -40,6 +40,7 @@
 [submodule "bundle/vimwiki"]
 	path = bundle/vimwiki
 	url = git://github.com/vimwiki/vimwiki.git
+	ignore = dirty
 [submodule "bundle/vim-pencil"]
 	path = bundle/vim-pencil
 	url = git://github.com/reedes/vim-pencil.git
@@ -70,6 +71,7 @@
 [submodule "bundle/browser-connect"]
 	path = bundle/browser-connect
 	url = git://github.com/Bogdanp/browser-connect.vim.git
+	ignore = dirty
 [submodule "bundle/MatchTag"]
 	path = bundle/MatchTag
 	url = https://github.com/gregsexton/MatchTag.git
