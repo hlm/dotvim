@@ -1,5 +1,9 @@
-execute pathogen#infect()
 let g:pathogen_disabled = []
+call add(g:pathogen_disabled, 'browser-connect')
+call add(g:pathogen_disabled, 'command-t')
+call add(g:pathogen_disabled, 'github-issues')
+
+execute pathogen#infect()
 syntax on
 syntax enable
 set ts=2
